@@ -1,0 +1,54 @@
+{
+  "mode": "demo",
+  "source": "Datos ficticios creados exclusivamente para demostrar la interfaz",
+  "offers": [
+    {
+      "id": "demo-01",
+      "name": "Móvil Horizonte 5G",
+      "category": "tecnologia",
+      "kind": "phone",
+      "price": 249,
+      "description": "Ejemplo de móvil con pantalla de 6,5 pulgadas y 128 GB."
+    },
+    {
+      "id": "demo-02",
+      "name": "Auriculares Nube",
+      "category": "tecnologia",
+      "kind": "headphones",
+      "price": 69,
+      "description": "Ejemplo de auriculares inalámbricos para el día a día."
+    },
+    {
+      "id": "demo-03",
+      "name": "Aspiradora Brisa sin cable",
+      "category": "aspiradoras",
+      "kind": "vacuum",
+      "price": 129,
+      "description": "Ejemplo de aspiradora vertical ligera y recargable."
+    },
+    {
+      "id": "demo-04",
+      "name": "Robot aspirador Órbita",
+      "category": "aspiradoras",
+      "kind": "robot",
+      "price": 199,
+      "description": "Ejemplo de robot aspirador para la limpieza del hogar."
+    },
+    {
+      "id": "demo-05",
+      "name": "Robot de cocina Sabor",
+      "category": "cocina",
+      "kind": "cooker",
+      "price": 299,
+      "description": "Ejemplo de robot de cocina multifunción con pantalla."
+    },
+    {
+      "id": "demo-06",
+      "name": "Robot de cocina Mesa",
+      "category": "cocina",
+      "kind": "cooker",
+      "price": 179,
+      "description": "Ejemplo de ayudante de cocina compacto para recetas sencillas."
+    }
+  ]
+}
