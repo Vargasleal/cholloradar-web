@@ -8,7 +8,11 @@
       "category": "tecnologia",
       "kind": "phone",
       "price": 249,
-      "description": "Ejemplo de móvil con pantalla de 6,5 pulgadas y 128 GB."
+      "description": "Ejemplo de móvil con pantalla de 6,5 pulgadas y 128 GB.",
+      "features": [
+        "Pantalla de 6,5″",
+        "128 GB"
+      ]
     },
     {
       "id": "demo-02",
@@ -16,7 +20,11 @@
       "category": "tecnologia",
       "kind": "headphones",
       "price": 69,
-      "description": "Ejemplo de auriculares inalámbricos para el día a día."
+      "description": "Ejemplo de auriculares inalámbricos para el día a día.",
+      "features": [
+        "Inalámbricos",
+        "Uso diario"
+      ]
     },
     {
       "id": "demo-03",
@@ -24,7 +32,11 @@
       "category": "aspiradoras",
       "kind": "vacuum",
       "price": 129,
-      "description": "Ejemplo de aspiradora vertical ligera y recargable."
+      "description": "Ejemplo de aspiradora vertical ligera y recargable.",
+      "features": [
+        "Sin cable",
+        "Recargable"
+      ]
     },
     {
       "id": "demo-04",
@@ -32,7 +44,11 @@
       "category": "aspiradoras",
       "kind": "robot",
       "price": 199,
-      "description": "Ejemplo de robot aspirador para la limpieza del hogar."
+      "description": "Ejemplo de robot aspirador para la limpieza del hogar.",
+      "features": [
+        "Formato robot",
+        "Limpieza del hogar"
+      ]
     },
     {
       "id": "demo-05",
@@ -40,7 +56,11 @@
       "category": "cocina",
       "kind": "cooker",
       "price": 299,
-      "description": "Ejemplo de robot de cocina multifunción con pantalla."
+      "description": "Ejemplo de robot de cocina multifunción con pantalla.",
+      "features": [
+        "Multifunción",
+        "Con pantalla"
+      ]
     },
     {
       "id": "demo-06",
@@ -48,7 +68,11 @@
       "category": "cocina",
       "kind": "cooker",
       "price": 179,
-      "description": "Ejemplo de ayudante de cocina compacto para recetas sencillas."
+      "description": "Ejemplo de ayudante de cocina compacto para recetas sencillas.",
+      "features": [
+        "Formato compacto",
+        "Recetas sencillas"
+      ]
     }
   ]
 }

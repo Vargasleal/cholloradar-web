@@ -15,10 +15,15 @@ URL prevista: https://vargasleal.github.io/cholloradar-web/
 La URL solo estará operativa cuando Pages termine de desplegar. Consultar Settings → Pages y Actions.
 
 ## Desarrollo
-Servir la raíz por HTTP, por ejemplo `python -m http.server 8000`, y abrir http://localhost:8000 .
+Servir la raíz por HTTP, por ejemplo `python -m http.server 8000 --bind 127.0.0.1`, y abrir http://localhost:8000 .
 No abrir index.html directamente como archivo: el navegador puede bloquear la carga JSON.
 No hay compilación ni instalación de paquetes.
-Comprobar las tres categorías, búsqueda con/sin tildes, combinación de filtros, orden ascendente/descendente, estado vacío, diálogo con Escape, fallo de carga JSON y navegación entre páginas, en escritorio y móvil.
+Comprobar las tres categorías, búsqueda con/sin tildes, combinación con presupuesto máximo (incluido cero), contadores por categoría, orden ascendente/descendente, restablecimiento, estado vacío, diálogo con Escape y retorno del foco, fallo de carga JSON y reintento, y navegación entre páginas, en escritorio y móvil.
+
+## Diseño
+El catálogo utiliza un marco gris verdoso y una superficie blanca, sin panel lateral. Las categorías se muestran arriba y pueden desplazarse horizontalmente en móvil. El presupuesto está en un desplegable que muestra el límite activo. Cada ficha incluye dos características del producto ficticio y una ilustración SVG local con detalle. El diseño adapta el catálogo a tres, dos o una columna; respeta la preferencia de movimiento reducido y mantiene los avisos de demostración.
+
+Las decisiones de diseño, comprobaciones y límites están documentados en `DESIGN.md`. No se han añadido dependencias, tipografías remotas, servicios externos ni almacenamiento de búsquedas. Las capturas y los archivos temporales de revisión quedan en `.taste-skill/`, excluida de Git.
 
 ## Comparaloo
 Integración exclusivamente planificada. Primero solicitar y obtener permiso y documentación oficial. Después implementar el acceso en un servidor o proceso autorizado, con secretos fuera del frontend. Confirmar esquema, límites, atribución, almacenamiento e historial antes de programar endpoints concretos. Pages solo aloja archivos estáticos; no ejecuta un backend seguro.
